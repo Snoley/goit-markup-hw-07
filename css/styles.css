@@ -13,7 +13,9 @@
 }
 
 body {
-    font-family: var(--primary-font);
+  font-family: var(--primary-font);
+  letter-spacing: 0.03em;
+  color: var(--black-color);
 }
 
 
@@ -33,23 +35,31 @@ button {
   font-family: inherit;
 }
 
+.logo-header {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--black-color);
+  text-decoration: none;
+  
+}
+
 .logo {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--blue-color);
-  text-decoration: none;
 }
 
-.logo-second-part {
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--black-color);
+.logo-footer {
+    font-family: 'Raleway';
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.19;
+      color: var(--white-color);
+      text-decoration: none;
 }
 
 .page-header {
@@ -57,26 +67,24 @@ button {
 }
 
 .menu-link {
-  font-family: 'Roboto';
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--black-color);
 }
 
 .modal-open-btn:hover,
-.modal-open-btn:focus,
-.menu-link:hover,
-.meni-link:focus,
+.modal-open-btn:focus {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+}
+
 .contact-email-address:hover,
 .contact-email-address:focus,
 .contact-phone-number:hover,
 .contact-phone-number:focus,
-.portfolio-btn:hover,
-.portfolio-btn:focus {
-  background-color: var(--blue-color);
-  color: var(--white-color);
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--blue-color);
 }
 
 ul {
@@ -84,25 +92,31 @@ ul {
 }
 
 .contact-email-address {
-  font-family: 'Roboto';
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--gray-color);
 }
 
 .contact-phone-number {
-  font-family: 'Roboto';
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--gray-color);
 }
 
-.section-title {
+.address {
+  font-style: normal;
+  display: block;
   font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--white-color);
+}
+
+.section-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -113,7 +127,7 @@ ul {
   text-transform: uppercase;
 
   color: var(--white-color);
-  background: var(--background-color);
+  
 }
 
 .modal-open-btn {
@@ -122,7 +136,6 @@ ul {
   border-radius: 4px;
 }
 .btn-text {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -133,67 +146,76 @@ ul {
   color: var(--white-color);
 }
 .portfolio-btn {
-  background: var(--white-color);
-  border-radius: 4px;
+  background: #F5F4FA;;
+  cursor: pointer;
+  border: 0;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-btn-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.portfolio-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus
+.portfolio-btn:active {
+  background-color: var(--blue-color);
+    color: var(--white-color);
+  
 }
 
 .footer {
   background: var(--background-color);
 }
 
-.subtitle {
-  font-family: 'Roboto';
-  font-weight: 700;
-  font-size: 14px;
+.about-subtitle {
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--black-color);
 }
 
-.text {
-  font-family: 'Roboto';
-  font-size: 14px;
+.about-text {
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--gray-color);
 }
 
 .second-title {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
   line-height: 1.67;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--black-color);
 }
 
 .third-title {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--black-color);
 }
 
 .second-subtitle {
-  font-family: 'Roboto';
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--gray-color);
 }
 
 .menu-link-footer {
-  font-family: 'Roboto';
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--white-color);
+  font-style: normal;
 }
+
+.section-hero {
+  background: var(--background-color);
+}
+
