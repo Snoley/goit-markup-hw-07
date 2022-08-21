@@ -11,8 +11,20 @@
   --white-color: #ffffff;
   --background-color: #2f303a;
   --footer-color: rgba(255, 255, 255, 0.6);
+  --light-gray-color: #F5F4FA;
 }
 
+h1,h2,h3,h4,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+ul,ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
 body {
   font-family: var(--primary-font);
   letter-spacing: 0.03em;
@@ -21,6 +33,13 @@ body {
   background-color: var(--white-color);
 }
 
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 .link {
   text-decoration: none;
@@ -39,23 +58,23 @@ button {
 }
 
 .logo-header {
-  font-family: 'Raleway';
+  font-family: var(--secondary-font);
   font-size: 26px;
   line-height: 1.19;
   color: var(--black-color);
   text-decoration: none;
-  
+  margin-right: 93px;
 }
 
 .logo {
-  font-family: 'Raleway';
+  font-family: var(--secondary-font);
   font-size: 26px;
   line-height: 1.19;
   color: var(--blue-color);
 }
 
 .logo-footer {
-    font-family: 'Raleway';
+      font-family: var(--secondary-font);
       font-size: 26px;
       line-height: 1.19;
       color: var(--white-color);
@@ -141,10 +160,11 @@ ul {
   color: var(--white-color);
 }
 .portfolio-btn {
-  background: #F5F4FA;;
+  background: var(--light-gray-color);
   cursor: pointer;
-  border: 0;
+  border-radius: 4px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border: 0;
 }
 
 .portfolio-btn.active {
@@ -174,7 +194,7 @@ ul {
 }
 
 .footer {
-  background: var(--background-color);
+  background-color: var(--background-color);
 }
 
 .about-subtitle {
@@ -218,3 +238,154 @@ ul {
   background: var(--background-color);
 }
 
+.section-title {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--black-color);
+}
+
+.group {
+  background-color: var(--light-gray-color);
+}
+
+.portfolio-posters {
+  background: var(--white-color);
+  border-bottom: solid;
+  border-bottom-color: #EEEEEE;
+  
+}
+
+.group-participants {
+    background: var(--white-color);  
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+
+.page-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  column-gap: 50px;
+}
+
+.hero-title {
+  width: 696px;
+  height: 120px;
+}
+
+.hero-container {
+  width: 1600px;
+  height: 600px;
+  padding-top: 200px;
+    margin-left: 452px;
+    padding-bottom: 280px;
+}
+
+
+.menu-item {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.logo-header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.modal-open-btn {
+    margin-left: 240px;
+    margin-bottom: 200px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.about-subtitle {
+  margin-top: 94px;
+  column-gap: 30px;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  margin-top: 118px;
+  margin-bottom: 50px;
+}
+
+.group-title {
+  margin-top: 94px;
+  padding-top: 94px;
+}
+
+
+.third-title {
+  padding-top: 30px;
+}
+
+.section-subtitle {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.group-participants {
+  margin-bottom: 94px;
+  column-gap: 30px;
+}
+
+
+.footer {
+  padding-top: 60px;
+  padding-left: 215px;
+  margin-bottom: 20px;
+}
+
+.footer-menu-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+
+.portfolio-module {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 94px;
+}
+
+.portfolio-main-btn {
+  margin-top: 94px;
+  margin-bottom: 34px;
+  margin-left: 312px;
+}
+
+
+.portfolio-btn-text {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 22px;
+  padding-left: 22px;
+}
+
+
+.portfolio-title {
+  padding-top: 20px;
+  padding-left: 24px;
+}
+
+.portfolio-subtitle {
+  margin-top: 4px;
+  margin-left: 24px;
+  margin-bottom: 20px;
+  text-align:start;
+}
