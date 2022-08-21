@@ -389,3 +389,9 @@ ul {
   margin-bottom: 20px;
   text-align:start;
 }
+
+.page-header {
+    background: var(--white-color);
+      border-bottom: solid;
+      border-bottom-color: #EEEEEE;
+}
