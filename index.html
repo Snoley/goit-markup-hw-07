@@ -16,43 +16,46 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="page-header container page-header-container">
-      <nav class="page-navigation">
-        <a class="logo-header" href="./index.html"><span class="logo">Web</span>Studio</a>
+    <header class="page-header">
+      <div class="container page-header-container">
+        <nav class="page-navigation">
+          <a class="logo-header" href="./index.html"><span class="logo">Web</span>Studio</a>
+          <ul class="menu">
+            <li class="menu-item">
+              <a class="menu-link link current" href="./index.html">Студія</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Контакти</a>
+            </li>
+          </ul>
+        </nav>
         <ul class="menu">
           <li class="menu-item">
-            <a class="menu-link link current" href="./index.html">Студія</a>
+            <a class="contact-email-address link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li class="menu-item">
-            <a class="menu-link link" href="./portfolio.html">Портфоліо</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="">Контакти</a>
+            <a class="contact-phone-number link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>
-      <ul class="menu">
-        <li class="menu-item">
-          <a class="contact-email-address link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="menu-item">
-          <a class="contact-phone-number link" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
-      <section class="section-hero">
-        <div class="hero-container">
+      <section class="hero">
+        <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
           <button class="modal-open-btn" type="button">
             <span class="btn-text"> Замовити послугу </span>
           </button>
         </div>
       </section>
-      <section class="about container">
-        <h2 style="display: none">Заголовок h2</h2>
+      <section class="about">
+        <div class="container">
+        <h2 style="visibility: hidden">Заголовок h2</h2>
         <ul class="menu">
           <li class="menu-list">
             <h3 class="about-subtitle">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -80,7 +83,9 @@
           </li>
         </ul>
       </section>
-      <section class="container">
+      </div>
+      <section class="about-work">
+        <div class="container">
         <h2 class="section-title">Чим ми займаємося</h2>
         <ul class="menu">
           <li class="menu-list">
@@ -93,27 +98,28 @@
             <img src="./images/box-3.jpg" alt="Looking at the results" width="370" height="294" />
           </li>
         </ul>
+        </div>
       </section>
-      <section class="group">
+      <section class="team">
         <div class="container">
-          <h2 class="section-title group-title">Наша команда</h2>
+          <h2 class="section-title team-title">Наша команда</h2>
           <ul class="menu">
-            <li class="menu-list group-participants">
+            <li class="menu-list team-participants">
               <img src="./images/img.jpg" alt="Product Designer" width="270" height="260" />
               <h3 class="third-title">Ігор Дем'яненко</h3>
               <p class="section-subtitle">Product Designer</p>
             </li>
-            <li class="menu-list group-participants">
+            <li class="menu-list team-participants">
               <img src="./images/img-(1).jpg" alt="Frontend Developer" width="270" height="260" />
               <h3 class="third-title">Ольга Рєпіна</h3>
               <p class="section-subtitle">Frontend Developer</p>
             </li>
-            <li class="menu-list group-participants">
+            <li class="menu-list team-participants">
               <img src="./images/img-(2).jpg" alt="Marketing" width="270" height="260" />
               <h3 class="third-title">Микола Тарасов</h3>
               <p class="section-subtitle">Marketing</p>
             </li>
-            <li class="menu-list group-participants">
+            <li class="menu-list team-participants">
               <img src="./images/img-(3).jpg" alt="UI Designer" width="270" height="260" />
               <h3 class="third-title">Михайло Єрмаков</h3>
               <p class="section-subtitle">UI Designer</p>
