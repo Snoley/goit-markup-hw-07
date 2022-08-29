@@ -250,7 +250,6 @@ ul {
   text-align: center;
   color: var(--gray-color);
   margin-top: 10px;
-  padding-bottom: 30px;
 }
 
 .menu-link-footer {
@@ -263,9 +262,12 @@ ul {
 }
 
 .hero {
-  background: var(--background-color);
   padding: 200px 0;
   text-align: center;
+  background: #C4C4C4;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+  url(../images/hero-bg.jpg);
+  background-size: cover;
 }
 
 .visually-hidden {
@@ -363,6 +365,10 @@ ul {
   height: 21px;
 }
 
+.footer-menu {
+  width: 231px;
+}
+
 
 .portfolio-module {
   display: flex;
@@ -399,3 +405,170 @@ ul {
 .about-work {
   padding-top: 0px
 }
+
+.icon-mail {
+  margin-right: 10px;
+  fill: #757575;
+}
+
+.icon-phone {
+  margin-right: 10px;
+  fill: #757575;
+}
+
+
+
+.contact-email-address:hover .icon-mail {
+  fill: var(--blue-color);
+}
+
+
+
+.contact-phone-number:hover .icon-phone {
+  fill: var(--blue-color);
+}
+
+
+
+.icon-antenna {
+  background-color: var(--light-gray-color);
+  margin-bottom: 30px;
+}
+
+.icon-clock {
+  background-color: var(--light-gray-color);
+  margin-bottom: 30px;
+}
+
+.icon-diagram {
+  background-color: var(--light-gray-color);
+  margin-bottom: 30px;
+}
+
+.icon-astronaut {
+  background-color: var(--light-gray-color);
+  margin-bottom: 30px;
+}
+
+.social-list-icon {
+  width: 20px;
+  height: 20px;
+  fill: #AFB1B8;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+
+.social-list-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--blue-color);
+}
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill: var(--white-color);
+}
+
+
+.customers {
+  width: 106px;
+  height: 60px;
+  fill: #AFB1B8;
+  padding-top: 16px;
+  
+}
+
+.customers-list {
+  border: 1px solid #AFB1B8;
+  width: 160px;
+  height: 94px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+
+
+.customers-list:hover {
+  border: 1px solid var(--blue-color);
+}
+
+.customers-list:hover .customers {
+  fill: var(--blue-color);
+}
+
+
+
+.social-list-icon-footer {
+  width: 20px;
+  height: 20px;
+  fill: var(--white-color)
+}
+
+.social-list-footer {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  margin-left: 316px;
+  position: absolute;
+}
+
+.social-list-link-footer {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-list-item-footer {
+  margin-top: 32px;
+}
+
+
+.join-us {
+  position: absolute;
+  font-weight: 700;
+  color: var(--white-color);
+  height: 16px;
+  margin-left: 20px;
+}
+
+
+
+.social-list-link-footer:hover {
+  background-color: var(--blue-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .portfolio-posters:hover {
+  box-shadow: 1px solid var(--black-color);
+} */
