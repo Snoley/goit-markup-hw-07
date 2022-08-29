@@ -63,39 +63,37 @@
         <div class="container">
         <h2 class="visually-hidden">Заголовок h2</h2>
         <ul class="menu">
-          <li class="menu-list"><svg aria-label="антенна" class="icon-antenna" width="270" height="120">
-            <use href="./images/sprite.svg#icon-antenna"></use>
-          </svg></li>
-          <li class="menu-list"><svg aria-label="годинник" class="icon-clock" width="270" height="120">
-            <use href="./images/sprite.svg#icon-clock"></use>
-          </svg></li>
-          <li class="menu-list"><svg aria-label="діаграма" class="icon-diagram" width="270" height="120">
-            <use href="./images/sprite.svg#icon-diagram"></use>
-          </svg></li>
-          <li class="menu-list"><svg aria-label="астронавт" class="icon-astronaut" width="270" height="120"> 
-            <use href="./images/sprite.svg#icon-astronaut"></use>
-          </svg></li>
-        </ul>
-        <ul class="menu">
           <li class="menu-list">
+            <div class="antenna"><svg aria-label="антенна" class="icon-antenna" width="70" height="120">
+            <use href="./images/sprite.svg#icon-antenna"></use>
+          </svg></div>
             <h3 class="about-subtitle">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="about-text">
               Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
             </p>
           </li>
           <li class="menu-list">
+            <div class="clock"><svg aria-label="годинник" class="icon-clock" width="70" height="120">
+            <use href="./images/sprite.svg#icon-clock"></use>
+          </svg></div>
             <h3 class="about-subtitle">ПУНКТУАЛЬНІСТЬ</h3>
             <p class="about-text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
             </p>
           </li>
           <li class="menu-list">
+            <div class="diagram"><svg aria-label="діаграма" class="icon-diagram" width="70" height="120">
+            <use href="./images/sprite.svg#icon-diagram"></use>
+          </svg></div>
             <h3 class="about-subtitle">ПЛАНУВАННЯ</h3>
             <p class="about-text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li class="menu-list">
+            <div class="astronaut"><svg aria-label="астронавт" class="icon-astronaut" width="70" height="120"> 
+            <use href="./images/sprite.svg#icon-astronaut"></use>
+          </svg></div>
             <h3 class="about-subtitle">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p class="about-text">
               Значимість цих проблем настільки очевидна, що реалізація планових завдань.
@@ -270,32 +268,33 @@
       <section class="section">
         <div class="container">
           <h2 class="section-title">Постійні клієнти</h2>
-          <ul class="menu">
-            <li class="customers-list"><svg aria-label="клієнт1" class="customers">
+          <ul class="partners">
+            <li class="customers-list"><div class="our-customers"><svg aria-label="клієнт1" class="customers">
               <use href="./images/sprite.svg#icon-our-partner1"></use>
-            </svg></li>
-            <li class="customers-list"><svg aria-label="клієнт2" class="customers">
+            </svg></div></li>
+            <li class="customers-list"><div class="our-customers"><svg aria-label="клієнт2" class="customers">
               <use href="./images/sprite.svg#icon-our-partner2"></use>
-            </svg></li>
-            <li class="customers-list"><svg aria-label="клієнт3" class="customers">
+            </svg></div></li>
+            <li class="customers-list"><div class="our-customers"><svg aria-label="клієнт3" class="customers">
               <use href="./images/sprite.svg#icon-our-partner3"></use>
-            </svg></li>
-            <li class="customers-list"><svg aria-label="клієнт4" class="customers">
+            </svg></div></li>
+            <li class="customers-list"><div class="our-customers"><svg aria-label="клієнт4" class="customers">
               <use href="./images/sprite.svg#icon-our-partner4"></use>
-            </svg></li>
-            <li class="customers-list"><svg aria-label="клієнт5" class="customers">
+            </svg></div></li>
+            <li class="customers-list"><div class="our-customers"><svg aria-label="клієнт5" class="customers">
               <use href="./images/sprite.svg#icon-our-partner5"></use>
-            </svg></li>
-            <li class="customers-list"><svg aria-label="клієнт6" class="customers">
+            </svg></div></li>
+            <li class="customers-list"><div class="our-customers"><svg aria-label="клієнт6" class="customers">
               <use href="./images/sprite.svg#icon-our-partner6"></use>
-            </svg></li>
+            </svg></div></li>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="container">     
+      <div class="container">
+        <div>     
         <ul class="social-list-footer">
-          <li><p class="join-us">ПРИЄДНУЙТЕСЬ</p></li>
+          <li><h4 class="join-us">ПРИЄДНУЙТЕСЬ</h4></li>
                 <li class="social-list-item-footer">
                   <a href="" class="social-list-link-footer">
                     <svg aria-label="інстаграм" class="social-list-icon-footer">
@@ -326,6 +325,8 @@
                 </li>
               </ul>
               <a class="logo-footer" href="./index.html"><span class="logo">Web</span>Studio</a>
+              </div>
+              <div>
         <address>
           <ul class="footer-menu">
             <li class="footer-menu-item">
@@ -349,6 +350,7 @@
             </li>
           </ul>
         </address>
+        </div>
       </div>
     </footer>
   </body>
