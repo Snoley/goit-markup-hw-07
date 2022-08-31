@@ -81,7 +81,7 @@ button {
   color: var(--white-color);
   text-decoration: none;
   margin-bottom: 20px;
-  display: block;
+  display: inline-block;
 }
 
 .menu-link {
@@ -135,6 +135,7 @@ ul {
   letter-spacing: 0.02em;
   color: var(--gray-color);
   display: flex;
+  align-items: center;
 }
 
 .contact-phone-number {
@@ -143,6 +144,7 @@ ul {
   letter-spacing: 0.02em;
   color: var(--gray-color);
   display: flex;
+  align-items: center;
 }
 
 .address {
@@ -435,42 +437,46 @@ ul {
 }
 
 
+.menu-list {
+  width: 270px;
+}
+
 
 .antenna {
- width: 270px;
  height: 120px;
  text-align: center;
  justify-content: center;
  background-color: var(--light-gray-color);
  margin-bottom: 30px;
+ display: flex;
 }
 
 
 .clock {
- width: 270px;
  height: 120px;
  text-align: center;
  justify-content: center;
  background-color: var(--light-gray-color);
  margin-bottom: 30px;
+ display: flex;
 }
 
 .diagram{
- width: 270px;
  height: 120px;
  text-align: center;
  justify-content: center;
  background-color: var(--light-gray-color);
  margin-bottom: 30px;
+ display: flex;
 }
 
 .astronaut {
- width: 270px;
  height: 120px;
  text-align: center;
  justify-content: center;
  background-color: var(--light-gray-color);  
  margin-bottom: 30px;
+ display: flex;
 }
 
 .social-list-icon {
@@ -512,7 +518,6 @@ ul {
   width: 106px;
   height: 60px;
   fill: #AFB1B8;
-  margin-top: 16px;
 }
 
 .customers-list {
@@ -534,8 +539,10 @@ ul {
 }
 
 .our-customers {
-  text-align: center;
+  align-items: center;
   justify-content: center;
+  display: flex;
+  height: 100%;
 }
 
 .social-list-icon-footer {
@@ -548,7 +555,7 @@ ul {
   display: flex;
   justify-content: center;
   column-gap: 10px;
-  margin-left: 316px;
+  margin-left: 70px;
   position: absolute;
 }
 
@@ -589,4 +596,21 @@ ul {
 
 .portfolio-posters:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.footer-div {
+  width: 231px;
+  height: 81px;
+}
+
+
+.footer-container {
+  display: flex;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 60px;
 }
