@@ -557,6 +557,7 @@ ul {
   column-gap: 10px;
   margin-left: 70px;
   position: absolute;
+  margin-top: 12px;
 }
 
 .social-list-link-footer {
