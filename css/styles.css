@@ -575,9 +575,7 @@ ul {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.social-list-item-footer {
-  margin-top: 32px;
-}
+
 
 .social-footer {
   margin-top: 12px;
@@ -585,11 +583,10 @@ ul {
 }
 
 .join-us {
-  position: absolute;
   font-weight: 700;
   color: var(--white-color);
-  height: 16px;
-  margin-left: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
 }
 
 
@@ -618,4 +615,5 @@ ul {
 
 footer .container {
   display: flex;
+  align-items: baseline;
 }
