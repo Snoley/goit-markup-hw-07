@@ -90,9 +90,9 @@ button {
   letter-spacing: 0.02em;
   line-height: 1.14;
   color: var(--black-color);
-  transition: 250ms;
+  transition-duration: 250ms;
+  transition-property: background-color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 
 .modal-open-btn:hover,
@@ -160,7 +160,8 @@ ul {
   color: var(--gray-color);
   display: flex;
   align-items: center;
-  transition: 250ms;
+  transition-duration: 250ms;
+  transition-property: background-color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -171,7 +172,8 @@ ul {
   color: var(--gray-color);
   display: flex;
   align-items: center;
-  transition: 250ms;
+  transition-duration: 250ms;
+  transition-property: background-color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -201,7 +203,8 @@ ul {
   background: var(--blue-color);
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  transition: 250ms;
+  transition-duration: 250ms;
+  transition-property: background-color, color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -227,7 +230,8 @@ ul {
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
-  transition: 250ms;
+  transition-duration: 250ms;
+  transition-property: background-color, color, box-shadow;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -338,7 +342,8 @@ ul {
   background: var(--white-color);
   border: 1px solid #eeeeee;
   height: 404px;
-  transition: 250ms;
+  transition-duration: 250ms;
+  transition-property: box-shadow;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -437,15 +442,17 @@ ul {
 .icon-mail {
   margin-right: 10px;
   fill: #757575;
-  transition: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-property: color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-phone {
   margin-right: 10px;
   fill: #757575;
-  transition: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-property: color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-email-address:hover .icon-mail {
@@ -500,7 +507,8 @@ ul {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
-  transition: 250ms;
+  transition-duration: 250ms;
+  transition-property: color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -519,7 +527,8 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 250ms;
+  transition-duration: 250ms;
+  transition-property: background-color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -568,7 +577,8 @@ ul {
   width: 100%;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  transition: 250ms;
+  transition-duration: 250ms;
+  transition-property: border, color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   
 }
@@ -577,7 +587,8 @@ ul {
   width: 20px;
   height: 20px;
   fill: var(--white-color);
-  transition: 250ms;
+  transition-duration: 250ms;
+  transition-property: color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -595,7 +606,8 @@ ul {
   align-items: center;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.1);
-  transition: 250ms;
+  transition-duration: 250ms;
+  transition-property: background-color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -651,22 +663,12 @@ footer .container {
   line-height: 1.14;
   text-align: center;
   text-transform: uppercase;
-  transform: translateY(294px);
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(224px);
 } 
 
 .work-list-img-wrapper {
   position: relative;
   overflow: hidden;
-}
-
-.work-list-img-wrapper:focus .overlay {
-  transform: translateY(224px);
-}
-
-.work-list-img-wrapper:hover .overlay {
-  transform: translateY(224px);
 }
 
 
@@ -684,7 +686,8 @@ footer .container {
   padding-right: 24px;
   padding-top: 63px;
   transform: translateY(100%);
-  transition: 250ms;
+  transition-duration: 250ms;
+  transition-property: transform;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -709,8 +712,7 @@ footer .container {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
-  z-index: 10000000;
-  transition: 250ms;
+  transition: opacity 250ms ease, visibility 250ms ease;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
