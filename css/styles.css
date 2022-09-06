@@ -468,6 +468,14 @@ ul {
   fill: var(--blue-color);
 }
 
+.contact-email-address:focus .icon-mail {
+  fill: var(--blue-color);
+}
+
+.contact-phone-number:focus .icon-phone {
+  fill: var(--blue-color);
+}
+
 .menu-list {
   width: 270px;
 }
@@ -596,7 +604,6 @@ ul {
   height: 20px;
   fill: var(--white-color);
   transition-duration: 250ms;
-  transition-property: fill;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -651,6 +658,7 @@ ul {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
+
 footer .container {
   display: flex;
   align-items: baseline;
@@ -704,13 +712,14 @@ footer .container {
   overflow: hidden;
 }
 
-.portfolio-posters:focus .portfolio-overlay {
+.portfolio-posters-link:focus .portfolio-overlay {
   transform: translateY(0%);
 }
 
 .portfolio-posters:hover .portfolio-overlay {
   transform: translateY(0%);
 }
+
 
 
 .backdrop {
