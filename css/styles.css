@@ -292,7 +292,6 @@ ul {
   line-height: 1.19;
   text-align: center;
   color: var(--gray-color);
-  margin-top: 10px;
 }
 
 .menu-link-footer {
@@ -346,7 +345,6 @@ ul {
 .portfolio-posters {
   background: var(--white-color);
   border: 1px solid #eeeeee;
-  height: 404px;
   transition-duration: 250ms;
   transition-property: box-shadow;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -428,10 +426,11 @@ ul {
 }
 
 .portfolio-subtitle {
-  margin-top: 4px;
   padding-left: 24px;
   text-align: start;
+  padding-bottom: 20px;
 }
+
 
 .page-header {
   background: var(--white-color);
