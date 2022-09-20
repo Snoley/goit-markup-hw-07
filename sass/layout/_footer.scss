@@ -1,0 +1,201 @@
+.footer {
+    background-color: var(--background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    .container {
+        display: flex;
+        align-items: baseline;
+    }
+}
+
+.logo-footer {
+    font-family: var(--secondary-font);
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--white-color);
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.menu-link-footer {
+    line-height: 1.71;
+    color: var(--white-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--footer-color);
+}
+
+
+.social-list-icon-footer {
+    width: 20px;
+    height: 20px;
+    fill: var(--white-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-list-footer {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.social-list-link-footer {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition-duration: 250ms;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+        background-color: var(--blue-color);
+    }
+
+    &:focus {
+        background-color: var(--blue-color);
+    }
+}
+
+.social-footer {
+    margin-left: 70px;
+}
+
+
+.footer-menu-item {
+    height: 21px;
+    :not(:last-child) {
+        margin-bottom: 9px;
+    }
+}
+
+.footer-menu {
+    width: 231px;
+}
+
+
+.modal-form-footer-input {
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    transition-duration: 250ms;
+    transition-property: fill, border-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: var(--background-color);
+    color: var(--white-color);
+
+    &:placeholder {
+        color: rgba(255, 255, 255, 0.6);
+    }
+}
+
+.footer_mail_list {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--white-color);
+    margin-bottom: 20px;
+}
+
+.label-footer {
+    margin-left: 93px;
+    color: var(--background-color);
+}
+
+
+.modal-footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-email-address {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--gray-color);
+    display: flex;
+    align-items: center;
+    transition-duration: 250ms;
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+        color: var(--blue-color);
+
+        .contact-email-address__icon-mail {
+            fill: var(--blue-color);
+        }
+    }
+
+    &:focus {
+        color: var(--blue-color);
+
+        .contact-email-address__icon-mail {
+            fill: var(--blue-color);
+        }
+    }
+}
+
+
+.contact-phone-number {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--gray-color);
+    display: flex;
+    align-items: center;
+    transition-duration: 250ms;
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+        color: var(--blue-color);
+
+        .contact-phone-number__icon-phone {
+            fill: var(--blue-color);
+        }
+    }
+
+    &:focus {
+        color: var(--blue-color);
+
+        .contact-phone-number__icon-phone {
+            fill: var(--blue-color);
+        }
+    }
+}
+
+
+.contact-email-address__icon-mail {
+    margin-right: 10px;
+    fill: #757575;
+    transition-duration: 250ms;
+    transition-property: fill;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-phone-number__icon-phone {
+    margin-right: 10px;
+    fill: #757575;
+    transition-duration: 250ms;
+    transition-property: fill;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.join-us {
+  font-weight: 700;
+  color: var(--white-color);
+  margin-bottom: 20px;
+  display: inline-block;
+}

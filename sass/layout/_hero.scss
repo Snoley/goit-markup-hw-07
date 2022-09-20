@@ -1,0 +1,61 @@
+.hero {
+    padding: 200px 0;
+    text-align: center;
+    background: rgba(47, 48, 58, 0.4);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-open-btn {
+    background: var(--blue-color);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    transition-duration: 250ms;
+    transition-property: background-color, color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    margin-top: 30px;
+    cursor: pointer;
+    border: none;
+    width: 216px;
+    height: 50px;
+    padding-left: 32px;
+
+    &:hover {
+        background-color: var(--blue-color);
+        color: var(--white-color);
+    }
+    
+    &:focus {
+        background-color: var(--blue-color);
+        color: var(--white-color);
+    }
+}
+
+
+
+.btn-text {
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+}

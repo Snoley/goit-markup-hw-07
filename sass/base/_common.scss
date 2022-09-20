@@ -1,0 +1,47 @@
+* {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+body {
+    font-family: var(--primary-font);
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+    font-size: 14px;
+    background-color: var(--white-color);
+}
+
+img {
+    display: block;
+}
+
+button {
+    font-family: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}

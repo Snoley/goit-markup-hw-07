@@ -1,0 +1,101 @@
+.logo-header {
+    font-family: var(--secondary-font);
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--black-color);
+    text-decoration: none;
+    margin-right: 93px;
+    width: 145px;
+}
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-header {
+    background: var(--white-color);
+    padding: 24px 0;
+    border-bottom: 1px solid #eeee;
+    position: relative;
+}
+
+.page-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.contact-email-address {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--gray-color);
+    display: flex;
+    align-items: center;
+    transition-duration: 250ms;
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+        color: var(--blue-color);
+
+        .contact-email-address__icon-mail {
+            fill: var(--blue-color);
+        }
+    }
+        
+    &:focus {
+        color: var(--blue-color);
+
+        .contact-email-address__icon-mail {
+            fill: var(--blue-color);
+        }
+    }
+}
+
+
+.contact-phone-number {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--gray-color);
+    display: flex;
+    align-items: center;
+    transition-duration: 250ms;
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+            color: var(--blue-color);
+    
+            .contact-phone-number__icon-phone {
+                fill: var(--blue-color);
+            }
+        }
+    
+        &:focus {
+            color: var(--blue-color);
+    
+            .contact-phone-number__icon-phone {
+                fill: var(--blue-color);
+            }
+        }
+}
+
+
+.contact-email-address__icon-mail {
+    margin-right: 10px;
+    fill: #757575;
+    transition-duration: 250ms;
+    transition-property: fill;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-phone-number__icon-phone {
+    margin-right: 10px;
+    fill: #757575;
+    transition-duration: 250ms;
+    transition-property: fill;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
