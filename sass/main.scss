@@ -1,9 +1,13 @@
-@import './base/address';
-@import './base/common';
-@import './base/section';
-@import './base/container';
-@import './base/menu';
+@import './utils/variables';
+@import './utils/current';
+@import './utils/visually-hidden';
 
+@import './base/common';
+@import './base/reset';
+
+@import './components/section';
+@import './components/container';
+@import './components/menu';
 @import './components/menu-link';
 @import './components/social-list';
 @import './components/subtitle';
@@ -24,7 +28,4 @@
 @import './layout/footer';
 @import './layout/portfolio';
 
-@import './utils/variables';
-@import './utils/current';
-@import './utils/visually-hidden';
 

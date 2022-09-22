@@ -19,7 +19,7 @@
     display: inline-block;
 }
 
-.menu-link-footer {
+.menu__item__link-footer {
     line-height: 1.71;
     color: var(--white-color);
     font-style: normal;
@@ -69,14 +69,15 @@
 }
 
 
-.footer-menu-item {
+.footer__menu__item {
     height: 21px;
-    :not(:last-child) {
-        margin-bottom: 9px;
-    }
 }
 
-.footer-menu {
+.footer__menu__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer__menu {
     width: 231px;
 }
 
@@ -198,4 +199,13 @@
   color: var(--white-color);
   margin-bottom: 20px;
   display: inline-block;
+}
+
+.address {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--white-color);
+    font-style: normal;
 }
