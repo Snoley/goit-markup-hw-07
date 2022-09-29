@@ -21,19 +21,24 @@
         <nav class="page-navigation">
           <a class="logo-header" href="./index.html"><span class="logo">Web</span>Studio</a>
           <ul class="menu">
-            <li class="menu__item">
+            <li class="menu__list">
               <a class="menu__item__link link current current-index" href="./index.html">Студія</a>
             </li>
-            <li class="menu__item">
+            <li class="menu__list">
               <a class="menu__item__link link" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li class="menu__item">
+            <li class="menu__list">
               <a class="menu__item__link link" href="">Контакти</a>
             </li>
           </ul>
         </nav>
+        <button type="button" class="open-mobile-menu-btn" data-menu-open>
+          <svg aria-label="burger" class="open-mobile-menu-btn__icon">
+            <use href="./images/sprite.svg#icon-burger"></use>
+          </svg>
+        </button>
         <ul class="menu">
-          <li class="menu__item">
+          <li class="menu__list">
             <a class="contact-email-address link" href="mailto:info@devstudio.com">
               <svg
                 aria-label="пошта"
@@ -46,7 +51,7 @@
               info@devstudio.com
             </a>
           </li>
-          <li class="menu__item">
+          <li class="menu__list">
             <a class="contact-phone-number link" href="tel:+380961111111">
               <svg
                 aria-label="телефон"
@@ -61,8 +66,54 @@
           </li>
         </ul>
       </div>
+      <div class="mobile-menu " data-menu>
+        <div class="container mobile-menu__container">
+          <button class="mobile-menu__close-button" type="button" data-menu-close>
+            <svg class="modal-close-icon">
+              <use href="./images/sprite.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="mobile-text">
+            <li class="mobile-text__menu">
+              <a class="mobile-text__link link current" href="./index.html">Студія</a>
+            </li>
+            <li class="mobile-text__menu">
+              <a class="mobile-text__link link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="mobile-text__menu">
+              <a class="mobile-text__link link" href="">Контакти</a>
+            </li>
+          </ul>
+          <ul class="mobile-menu_mail">
+            <li class="mobile-text__menu">
+              <a class="contact-phone-number-modal link" href="tel:+380961111111">
+                +38 096 111 11 11
+              </a>
+            </li>
+            <li class="mobile-text__menu">
+              <a class="contact-email-address-modal link" href="mailto:info@devstudio.com">
+                info@devstudio.com
+              </a>
+            </li>
+          </ul>
+          <ul class="mobile-menu__social">
+            <li class="mobile-menu__social-menu">
+              <a href="" class="mobile-menu-social-item">Instagram</a>
+            </li>
+            <li class="mobile-menu__social-menu">
+              <a href="" class="mobile-menu-social-item">Twitter</a>
+            </li>
+            <li class="mobile-menu__social-menu">
+              <a href="" class="mobile-menu-social-item">Facebook</a>
+            </li>
+            <li class="mobile-menu__social-menu">
+              <a href="" class="mobile-menu-social-item">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
-    <main>
+    <!-- <main>
       <section class="hero section">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
@@ -520,6 +571,9 @@
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script>
+    <script src="./js/modal.js"></script> -->
+    <script src="./js/menu.js"></script>
+  </body>
+</html>
   </body>
 </html>
