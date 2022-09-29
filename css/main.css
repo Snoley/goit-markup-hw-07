@@ -102,10 +102,6 @@ ol {
   padding-bottom: 94px;
 }
 
-.container {
-  padding-bottom: 16px;
-}
-
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
@@ -133,11 +129,6 @@ ol {
   justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
-  .menu {
-    display: none;
-  }
-}
 .menu__item__link {
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -501,7 +492,7 @@ ol {
 }
 
 .mobile-text__menu:last-child {
-  margin-bottom: 302px;
+  margin-bottom: 64px;
 }
 
 .mobile-text__link {
@@ -545,7 +536,6 @@ ol {
 .mobile-menu__social {
   display: flex;
   align-items: center;
-  margin-top: 64px;
   margin-left: 40px;
 }
 
@@ -593,6 +583,26 @@ ol {
   position: relative;
 }
 
+.contact-services {
+  display: none;
+}
+
+.contact-item {
+  display: none;
+}
+
+.page-header {
+  background: var(--white-color);
+  border-bottom: 1px solid rgba(238, 238, 238, 0.9333333333);
+  position: relative;
+}
+
+.page-navigation {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+}
+
 .page-header-container {
   display: flex;
   align-items: center;
@@ -613,6 +623,7 @@ ol {
     transition-duration: 250ms;
     transition-property: color;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    margin-top: 21px;
   }
   .contact-email-address:hover {
     color: var(--blue-color);
@@ -636,6 +647,7 @@ ol {
     transition-duration: 250ms;
     transition-property: color;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    margin-top: 10px;
   }
   .contact-phone-number:hover {
     color: var(--blue-color);
@@ -663,19 +675,50 @@ ol {
     transition-property: fill;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
+  .menu__list {
+    width: auto;
+  }
+  .logo-header {
+    margin-right: 87px;
+  }
+  .page-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+  }
+  .contact-services {
+    margin-left: 96px;
+    display: block;
+    column-gap: 50px;
+    justify-content: center;
+  }
+  .contact-item {
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+  }
+  .logo-header {
+    margin-top: 24px;
+    margin-bottom: 25px;
+  }
+  .page-navigation {
+    padding-top: 0px;
+  }
+  .contact-item {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
 }
-.page-header {
-  background: var(--white-color);
-  border-bottom: 1px solid rgba(238, 238, 238, 0.9333333333);
-  position: relative;
+@media screen and (min-width: 1200px) {
+  .contact-services {
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+  }
+  .contact-email-address {
+    margin-top: 10px;
+  }
 }
-
-.page-navigation {
-  display: flex;
-  align-items: center;
-  padding-top: 24px;
-}
-
 .hero {
   padding: 200px 0;
   text-align: center;

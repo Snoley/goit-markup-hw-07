@@ -15,7 +15,25 @@
     position: relative;
 }
 
+.contact-services {
+    display: none;
+}
 
+.contact-item {
+    display: none;
+}
+
+.page-header {
+    background: var(--white-color);
+    border-bottom: 1px solid #eeee;
+    position: relative;
+}
+
+.page-navigation {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+}
 
 .page-header-container {
     display: flex;
@@ -54,6 +72,8 @@
                      fill: var(--blue-color);
                  }
              }
+
+            margin-top: 21px;
          }
     
     
@@ -67,6 +87,7 @@
              transition-duration: 250ms;
              transition-property: color;
              transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+             margin-top: 10px;
     
              &:hover {
                  color: var(--blue-color);
@@ -103,18 +124,58 @@
              transition-property: fill;
              transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
          }
+
+         .menu__list {
+            width: auto;
+         }
+
+         .logo-header {
+            margin-right: 87px;
+         }
+
+         .page-header-container {
+            display: flex;
+            align-items: center;
+            justify-content: baseline;
+         }
+
+         .contact-services {
+            margin-left: 96px;
+            display: block;
+            column-gap: 50px;
+            justify-content: center;
+         }
+
+         .contact-item {
+            display: flex;
+            column-gap: 50px;
+            justify-content: center;
+         }
+
+        .logo-header {
+            margin-top: 24px;
+            margin-bottom: 25px;
+        }
+        
+        .page-navigation {
+            padding-top: 0px;
+        }
+        
+        .contact-item {
+            margin-top: 32px;
+            margin-bottom: 32px;
+        }
+
 }
 
+@media screen and (min-width: 1200px) {
+    .contact-services {
+        display: flex;
+        column-gap: 50px;
+        justify-content: center;
+    }
 
-.page-header {
-    background: var(--white-color);
-    border-bottom: 1px solid #eeee;
-    position: relative;
+    .contact-email-address {
+        margin-top: 10px;
+    }
 }
-
-.page-navigation {
-    display: flex;
-    align-items: center;
-    padding-top: 24px;
-}
-
