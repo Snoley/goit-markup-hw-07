@@ -23,3 +23,34 @@
     text-align: center;
     padding-top: 30px;
 }
+
+.img-size {
+    width: 270px;
+    height: 260px;
+}
+
+@media screen and (max-width: 767px) {
+    .section-title {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .team-menu {
+        display: block;
+
+    }
+
+    .img-size {
+        width: 450px;
+        height: 460px;
+    }
+
+    .third-title {
+        margin-bottom: 10px;
+    }
+
+    .social-list {
+        padding-bottom: 24px;
+    }
+
+}

@@ -18,6 +18,13 @@
 }
 
 
+.team-menu {
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+}
+
+
 .our-customers {
     align-items: center;
     justify-content: center;
@@ -44,3 +51,16 @@
         }
     }
 }
+
+@media screen and (max-width: 767px) {
+    .partners {
+        flex-wrap: wrap;
+    }
+
+    .customers-item {
+        width: 210px;
+        height: 92px;
+    }
+
+}
+

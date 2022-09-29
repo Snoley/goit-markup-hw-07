@@ -4,8 +4,10 @@
      line-height: 1.19;
      color: var(--black-color);
      text-decoration: none;
-     margin-right: 93px;
-     width: 145px;
+     margin-right: 276px;
+     width: 134px;
+    margin-bottom: 25px;
+
 }
 
 .page-header {
@@ -38,7 +40,6 @@
 .page-header-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
  @media screen and (min-width: 768px) {
@@ -154,7 +155,6 @@
 
         .logo-header {
             margin-top: 24px;
-            margin-bottom: 25px;
         }
         
         .page-navigation {
@@ -168,7 +168,7 @@
 
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
     .contact-services {
         display: flex;
         column-gap: 50px;

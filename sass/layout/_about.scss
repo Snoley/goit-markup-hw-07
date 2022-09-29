@@ -19,36 +19,53 @@
 
 .antenna {
     height: 120px;
+    width: 450px;
     text-align: center;
-    justify-content: center;
     background-color: var(--light-gray-color);
     margin-bottom: 30px;
-    display: flex;
 }
 
 .clock {
     height: 120px;
+    width: 450px;
     text-align: center;
-    justify-content: center;
     background-color: var(--light-gray-color);
     margin-bottom: 30px;
-    display: flex;
+
 }
 
 .diagram {
     height: 120px;
+    width: 450px;
     text-align: center;
-    justify-content: center;
     background-color: var(--light-gray-color);
     margin-bottom: 30px;
-    display: flex;
 }
 
 .astronaut {
     height: 120px;
+    width: 450px;
     text-align: center;
-    justify-content: center;
     background-color: var(--light-gray-color);
     margin-bottom: 30px;
-    display: flex;
+}
+
+@media screen and (max-width: 767px) {
+
+    .menu__list {
+        width: 450px;
+    }
+
+    .menu__list:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .about-subtitle {
+        text-align: center;
+    }
 }

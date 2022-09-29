@@ -1,102 +1,216 @@
-.hero {
+@media screen and (max-width: 480px) {
+    .hero {
     padding: 200px 0;
     text-align: center;
     background: rgba(47, 48, 58, 0.4);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    max-width: 1600px;
+    // max-width: 1600px;
     margin: auto;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-bg-mobile.jpg);
+    }   
+    .hero-title {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color); }
+
+     .backdrop {
+        position: absolute;
+     }   
+
+    .modal {
+        margin-top: 93px;
+        width: 450px;
+    }
+    
+    .modal-form-check-fill {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+    }
+
+    .modal-open-btn {
+                 background: var(--blue-color);
+                 box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+                 border-radius: 4px;
+                 transition-duration: 250ms;
+                 transition-property: background-color, color;
+                 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                 margin-top: 30px;
+                 cursor: pointer;
+                 border: none;
+                 width: 200px;
+                 height: 50px;
+                 padding-left: 32px;
+    
+                 &:hover {
+                     background-color: var(--blue-color);
+                     color: var(--white-color);
+                 }
+    
+                 &:focus {
+                     background-color: var(--blue-color);
+                     color: var(--white-color);
+                 }
+             }
+    
+             .btn-text {
+                 font-size: 16px;
+                 line-height: 1.87;
+                 display: flex;
+                 align-items: center;
+                 text-align: center;
+                 letter-spacing: 0.06em;
+                 color: var(--white-color);
+             }
+
+
 }
 
-@media screen and (min-device-pixelratio: 2) and (max-width: 767px),
-screen and (min-resolution: 192dpi) and (max-width: 767px),
-screen and (min-resolution: 2dppx) and (max-width: 767px) {
+
+
+@media screen and (min-device-pixelratio: 2) and (max-width: 480px),
+screen and (min-resolution: 192dpi) and (max-width: 480px),
+screen and (min-resolution: 2dppx) and (max-width: 480px) {
     .hero {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-bg-mobile@2x.jpg);
     }
 }
 
-@media screen and (max-width: 767px) {
-    .hero {
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-bg-mobile.jpg);
-    }
-}
 
 
-@media screen and (min-device-pixelratio: 2) and (min-width: 768px),
-screen and (min-resolution: 192dpi) and (min-width: 768px),
-screen and (min-resolution: 2dppx) and (min-width: 768px) {
-    .hero {
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-bg-tablet@2x.jpg);
-    }
-}
+ @media screen and (min-device-pixelratio: 2) and (min-width: 481px),
+ screen and (min-resolution: 192dpi) and (min-width: 481px),
+ screen and (min-resolution: 2dppx) and (min-width: 481px) {
+     .hero {
+         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-bg-tablet@2x.jpg);
+     }
+ }
 
-@media screen and (min-width: 768px) {
-    .hero {
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-bg-tablet.jpg);
-    }
-}
-
-
-@media screen and (min-device-pixelratio: 2) and (min-width: 1200px),
-screen and (min-resolution: 192dpi) and (min-width: 1200px),
-screen and (min-resolution: 2dppx) and (min-width: 1200px) {
-    .hero {
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-bg-desktop@2x.jpg);
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .hero {
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-bg-desktop.jpg);
-    }
-}
-
-.hero-title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--white-color);
-    width: 696px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.modal-open-btn {
-    background: var(--blue-color);
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    transition-duration: 250ms;
-    transition-property: background-color, color;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    margin-top: 30px;
-    cursor: pointer;
-    border: none;
-    width: 216px;
-    height: 50px;
-    padding-left: 32px;
-
-    &:hover {
-        background-color: var(--blue-color);
-        color: var(--white-color);
-    }
+ @media screen and (min-width: 481px) {
+         .hero {
+             padding: 200px 0;
+             text-align: center;
+             background: rgba(47, 48, 58, 0.4);
+             background-size: cover;
+             background-position: center;
+             background-repeat: no-repeat;
+             max-width: 1600px;
+             margin: auto;
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-bg-tablet.jpg);
+         }
     
-    &:focus {
-        background-color: var(--blue-color);
-        color: var(--white-color);
-    }
-}
+         .hero-title {
+             font-weight: 900;
+             font-size: 44px;
+             line-height: 1.62;
+             text-align: center;
+             letter-spacing: 0.06em;
+             text-transform: uppercase;
+             color: var(--white-color);
+         }
+    
+         .modal-open-btn {
+             background: var(--blue-color);
+             box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+             border-radius: 4px;
+             transition-duration: 250ms;
+             transition-property: background-color, color;
+             transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+             margin-top: 30px;
+             cursor: pointer;
+             border: none;
+             width: 200px;
+             height: 50px;
+             padding-left: 32px;
+    
+             &:hover {
+                 background-color: var(--blue-color);
+                 color: var(--white-color);
+             }
+    
+             &:focus {
+                 background-color: var(--blue-color);
+                 color: var(--white-color);
+             }
+         }
+    
+         .btn-text {
+             font-size: 16px;
+             line-height: 1.87;
+             display: flex;
+             align-items: center;
+             text-align: center;
+             letter-spacing: 0.06em;
+             color: var(--white-color);
+         }
+ }
 
-.btn-text {
-    font-size: 16px;
-    line-height: 1.87;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: var(--white-color);
-}
+
+ @media screen and (min-device-pixelratio: 2) and (min-width: 769px),
+ screen and (min-resolution: 192dpi) and (min-width: 769px),
+ screen and (min-resolution: 2dppx) and (min-width: 769px) {
+     .hero {
+         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-bg-desktop@2x.jpg);
+     }
+ }
+
+ @media screen and (min-width: 769px) {
+     .hero {
+         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-bg-desktop.jpg);
+     }
+     .hero-title {
+     font-weight: 900;
+     font-size: 44px;
+     line-height: 1.36;
+     text-align: center;
+     letter-spacing: 0.06em;
+     text-transform: uppercase;
+     color: var(--white-color);
+     width: 696px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .modal-open-btn {
+     background: var(--blue-color);
+     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+     border-radius: 4px;
+     transition-duration: 250ms;
+     transition-property: background-color, color;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+     margin-top: 30px;
+     cursor: pointer;
+     border: none;
+     width: 216px;
+     height: 50px;
+     padding-left: 32px;
+
+     &:hover {
+         background-color: var(--blue-color);
+         color: var(--white-color);
+     }
+    
+     &:focus {
+         background-color: var(--blue-color);
+         color: var(--white-color);
+     }
+ }
+
+ .btn-text {
+     font-size: 16px;
+     line-height: 1.87;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     letter-spacing: 0.06em;
+     color: var(--white-color);
+ }
+ }
+

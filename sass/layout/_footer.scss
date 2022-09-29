@@ -209,3 +209,47 @@
     color: var(--white-color);
     font-style: normal;
 }
+
+
+@media screen and (max-width:767px) {
+    .footer .container {
+        display: block;
+    }
+
+    .footer-div {
+        text-align: center;
+    }
+
+    .footer__menu {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    
+    .social-footer {
+        margin-left: 0px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .footer_mail_list {
+        text-align: center;
+    }
+
+    .label-footer {
+        margin-left: 0px;
+    }
+
+    .modal-footer-wrapper {
+        display: block;
+    }
+
+    .modal-form-footer-input {
+        width: 450px;
+        margin-bottom: 20px;
+    }
+
+    .modal-form-subscribe {
+        text-align: center;
+        margin-left: 125px;
+    }
+}
