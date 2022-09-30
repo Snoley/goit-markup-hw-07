@@ -112,3 +112,40 @@
     text-align: start;
     padding-bottom: 20px;
 }
+
+@media screen and (max-width:767px) {
+    .portfolio-menu {
+        flex-wrap: wrap;
+        width: 326px;
+        height: 91px;
+        justify-content: start;
+        display: flex;
+        margin-right: 15px;
+    }
+
+    .portfolio-img {
+        width: 450px;
+        height: 294px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .portfolio-module {
+        gap: 30px;
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    .portfolio-posters {
+        width: 354px;
+    }
+
+    .menu {
+        justify-content: start;
+    }
+
+
+    .portfolio-img {
+        width: 354px;
+    }
+}

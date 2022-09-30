@@ -244,12 +244,93 @@
     }
 
     .modal-form-footer-input {
-        width: 450px;
+        width: 100%;
         margin-bottom: 20px;
     }
 
     .modal-form-subscribe {
         text-align: center;
         margin-left: 125px;
+    }
+
+    
+}
+
+@media screen and (min-width:768px) {
+    .footer .container {
+        display: block;
+    }
+
+    .tablet-footer-div {
+        display: flex;
+    }
+
+    .footer-div {
+        text-align: center;
+        margin-left: 61px;
+    }
+
+    .social-footer {
+        margin-left: 165px;
+        text-align: center;
+    }
+
+    .modal-footer-wrapper {
+        display: block;
+    }
+
+    .label-footer {
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+
+    .modal-form-footer-input {
+        width: 450px;
+    }
+
+    .modal-form-subscribe {
+        margin-left: 276px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .footer .container {
+        display: flex;
+    }
+
+    .tablet-footer-div {
+        display: flex;
+    }
+
+    .footer-div {
+        text-align: left;
+        margin-left: 0px;
+    }
+
+    .social-footer {
+        margin-left: 70px;
+        text-align: left;
+        margin-top: 12px;
+    }
+
+    .modal-footer-wrapper {
+        display: flex;
+    }
+
+    .label-footer {
+        text-align: left;
+        margin-left: 93px;
+        margin-top: 12px;
+    }
+
+    .modal-form-footer-input {
+        width: 358px;
+    }
+
+    .modal-form-subscribe {
+        margin-left: 12px;
+        margin-top: 0px;
     }
 }
