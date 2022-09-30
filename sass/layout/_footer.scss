@@ -81,6 +81,11 @@
     width: 231px;
 }
 
+.footer-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .modal-form-footer-input {
     width: 358px;
@@ -250,7 +255,6 @@
 
     .modal-form-subscribe {
         text-align: center;
-        margin-left: 125px;
     }
 
     
@@ -290,7 +294,6 @@
     }
 
     .modal-form-subscribe {
-        margin-left: 276px;
         margin-top: 20px;
     }
 }

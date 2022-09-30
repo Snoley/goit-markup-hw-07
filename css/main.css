@@ -484,7 +484,7 @@ ol {
 }
 
 .mobile-text__menu:last-child {
-  margin-bottom: 64px;
+  margin-bottom: 302px;
 }
 
 .mobile-text__link {
@@ -518,7 +518,7 @@ ol {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--gray-color);
+  color: var(--blue-color);
   transition-duration: 250ms;
   transition-property: color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -552,6 +552,11 @@ ol {
   border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
 
+@media screen and (min-width: 767px) {
+  .mobile-menu {
+    display: none;
+  }
+}
 .page-header {
   background: var(--white-color);
   padding: 0;
@@ -593,8 +598,8 @@ ol {
     padding: 0;
   }
   .open-mobile-menu-btn__icon {
-    width: 40px;
-    height: 40px;
+    width: 24px;
+    height: 16px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -745,7 +750,7 @@ ol {
   }
   .modal {
     margin-top: 93px;
-    width: 100%;
+    width: 450px;
   }
   .modal-form-check-fill {
     font-weight: 400;
@@ -765,7 +770,7 @@ ol {
     border: none;
     width: 200px;
     height: 50px;
-    padding-left: 32px;
+    padding-left: 24px;
   }
   .modal-open-btn:hover {
     background-color: var(--blue-color);
@@ -783,6 +788,7 @@ ol {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--white-color);
+    font-weight: 700px;
   }
 }
 @media screen and (min-device-pixelratio: 2) and (max-width: 767px), screen and (min-resolution: 192dpi) and (max-width: 767px), screen and (min-resolution: 2dppx) and (max-width: 767px) {
@@ -1139,13 +1145,16 @@ ol {
 @media screen and (max-width: 767px) {
   .partners {
     flex-wrap: wrap;
+    display: flex;
+    gap: 30px;
   }
   .customers-item {
     width: 210px;
     height: 92px;
   }
   .container {
-    width: 480px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1241,6 +1250,12 @@ ol {
 
 .footer__menu {
   width: 231px;
+}
+
+.footer-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .modal-form-footer-input {
@@ -1390,7 +1405,6 @@ ol {
   }
   .modal-form-subscribe {
     text-align: center;
-    margin-left: 125px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1420,7 +1434,6 @@ ol {
     width: 450px;
   }
   .modal-form-subscribe {
-    margin-left: 276px;
     margin-top: 20px;
   }
 }

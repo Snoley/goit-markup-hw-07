@@ -55,6 +55,8 @@
 @media screen and (max-width: 767px) {
     .partners {
         flex-wrap: wrap;
+        display: flex;
+        gap: 30px;
     }
 
     .customers-item {
@@ -63,8 +65,10 @@
     }
 
     .container {
-        width: 480px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
+  
 
 }
 

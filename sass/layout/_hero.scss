@@ -26,7 +26,7 @@
 
     .modal {
         margin-top: 93px;
-        width: 100%;
+        width: 450px;
     }
     
     .modal-form-check-fill {
@@ -48,7 +48,7 @@
                  border: none;
                  width: 200px;
                  height: 50px;
-                 padding-left: 32px;
+                 padding-left: 24px;
     
                  &:hover {
                      background-color: var(--blue-color);
@@ -69,6 +69,7 @@
                  text-align: center;
                  letter-spacing: 0.06em;
                  color: var(--white-color);
+                 font-weight: 700px;
              }
 
 
