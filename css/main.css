@@ -484,7 +484,7 @@ ol {
 }
 
 .mobile-text__menu:last-child {
-  margin-bottom: 64px;
+  margin-bottom: 302px;
 }
 
 .mobile-text__link {
@@ -552,6 +552,11 @@ ol {
   border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
 
+@media screen and (min-width: 767px) {
+  .mobile-menu {
+    display: none;
+  }
+}
 .page-header {
   background: var(--white-color);
   padding: 0;
@@ -593,8 +598,8 @@ ol {
     padding: 0;
   }
   .open-mobile-menu-btn__icon {
-    width: 40px;
-    height: 40px;
+    width: 24px;
+    height: 16px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -765,7 +770,7 @@ ol {
     border: none;
     width: 200px;
     height: 50px;
-    padding-left: 32px;
+    padding-left: 24px;
   }
   .modal-open-btn:hover {
     background-color: var(--blue-color);
@@ -783,6 +788,7 @@ ol {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--white-color);
+    font-weight: 700px;
   }
 }
 @media screen and (min-device-pixelratio: 2) and (max-width: 767px), screen and (min-resolution: 192dpi) and (max-width: 767px), screen and (min-resolution: 2dppx) and (max-width: 767px) {
