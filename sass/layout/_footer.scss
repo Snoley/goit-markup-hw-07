@@ -81,6 +81,11 @@
     width: 231px;
 }
 
+.footer-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .modal-form-footer-input {
     width: 358px;
@@ -195,10 +200,10 @@
 }
 
 .join-us {
-  font-weight: 700;
-  color: var(--white-color);
-  margin-bottom: 20px;
-  display: inline-block;
+    font-weight: 700;
+    color: var(--white-color);
+    margin-bottom: 20px;
+    display: inline-block;
 }
 
 .address {
@@ -224,7 +229,7 @@
         width: 100%;
         margin-bottom: 60px;
     }
-    
+
     .social-footer {
         margin-left: 0px;
         text-align: center;
@@ -250,10 +255,9 @@
 
     .modal-form-subscribe {
         text-align: center;
-        margin-left: 125px;
     }
 
-    
+
 }
 
 @media screen and (min-width:768px) {
@@ -290,7 +294,6 @@
     }
 
     .modal-form-subscribe {
-        margin-left: 276px;
         margin-top: 20px;
     }
 }

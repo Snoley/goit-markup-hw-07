@@ -39,6 +39,7 @@
 
     &:hover {
         border: 1px solid var(--blue-color);
+
         .customers {
             fill: var(--blue-color);
         }
@@ -46,6 +47,7 @@
 
     &:focus {
         border: 1px solid var(--blue-color);
+
         .customers {
             fill: var(--blue-color);
         }
@@ -55,29 +57,34 @@
 @media screen and (max-width: 767px) {
     .partners {
         flex-wrap: wrap;
+        display: flex;
+        gap: 30px;
     }
 
     .customers-item {
-        width: 210px;
         height: 92px;
+        width: calc(50% - 15px);
     }
 
     .container {
-        width: 480px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
-
+    
 }
 
 @media screen and (min-width: 768px) {
     .partners {
-    gap: 30px;
-    flex-wrap: wrap;
-    display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        display: flex;
     }
 
     .customers-item {
-        width: 226px;
-    }
+         width: 226px;
+     }
+
+    
 }
 
 @media screen and (min-width: 1200px) {
