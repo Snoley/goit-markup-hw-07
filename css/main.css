@@ -477,6 +477,7 @@ ol {
 .mobile-text {
   padding-top: 48px;
   padding-left: 40px;
+  margin-bottom: 302px;
 }
 
 .mobile-text__menu:not(:last-child) {
@@ -484,7 +485,7 @@ ol {
 }
 
 .mobile-text__menu:last-child {
-  margin-bottom: 302px;
+  margin-bottom: 64px;
 }
 
 .mobile-text__link {
