@@ -26,7 +26,7 @@
 
     .modal {
         margin-top: 93px;
-        width: 450px;
+        width: calc(100% - 30px);
     }
     
     .modal-form-check-fill {
